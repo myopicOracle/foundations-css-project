@@ -89,3 +89,118 @@ img {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+/* Section 2 */
+
+div.section.two {
+    display: flex;
+    flex-flow: column nowrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+div.two.hero {
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 50px 0 42px 0;
+}
+
+div.two.content {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 86px;
+}
+
+div.card {
+    width: 136px;
+    text-align: center;
+    font-size: 14px;
+    color: #1F2937;
+    /* display: flex; */
+    /* flex: 1 1 auto; --> flex-basis: auto; tells flex item to respect explicit stated width */
+}
+
+div.frame {
+    width: 130px;
+    height: 130px;
+    /* flex: 0 0 auto; */
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+/* Section 3 */
+
+.section.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 330px;
+}
+
+div.quote {
+    color: #1F2937;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 130%;
+    max-width: 700px;
+    flex: initial;
+}
+
+div.author {
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 900;
+    /* width: 700px; */
+    margin: 0 32px 0 auto;
+    /* flex: initial; */
+}
+
+/* Section 4 */
+
+.section.four {
+    background-color: white;
+    padding: 8% 16%;
+}
+
+.four.content {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 110px;
+    border-radius: 8px;
+}
+
+.four .title {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.four .content {
+    color: white;
+    font-size: 16px;
+}
+
+.four button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
